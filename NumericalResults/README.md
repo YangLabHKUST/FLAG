@@ -1,0 +1,1 @@
+FLAG and its extensions are evaluated using simulation data in the block-magnified matrix, hub structure, and multiple graph settings, as well as the real data applications, including gene expression in the human brain, term association in the university websites, and stock prices in the U.S. financial market.
