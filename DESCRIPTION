@@ -1,0 +1,13 @@
+Package: FLAG
+Title: Flexible and Accurate Methods for Estimation and Inference of Gaussian Graphical Models with Applications
+Version: 0.0.0.9007
+Authors@R: 
+    person("Yueqi", "QIAN", , "yqianai@connect.ust.hk", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-5795-1307"))
+Description: Flexible and Accurate Methods for Estimation and Inference of Gaussian Graphical Models with Applications.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports: 
+    stats
