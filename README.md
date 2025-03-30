@@ -18,7 +18,25 @@ devtools::install_github("YangLabHKUST/FLAG")
 - This is a basic example which shows you how to solve a common problem:
 
 ``` r
-set.seed(20230306)
+library(FLAG)
+
+rm(list = ls())
+set.seed(1234)
+N = 20
+P = 10
+pi = 0.2
+
+Pre = matrix(sample(c(0.2, 0.4), P*P, replace = T) * rbinom(P*P, 1, pi), nrow = P, ncol = P )
+Pre[lower.tri(Pre)] = t(Pre)[lower.tri(Pre)]
+diag(Pre) = 1
+vals <- eigen(Pre)$values
+Sigma = solve(Pre)
+
+Z = MASS::mvrnorm(N, rep(0, P), Sigma)
+Z.c = scale(Z, center = T, scale = F)
+
+results = FLAG(Z.c)
+results$precision.est
 ```
 
 
