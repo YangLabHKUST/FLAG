@@ -13,6 +13,15 @@ from [GitHub](https://github.com/) with:
 devtools::install_github("YangLabHKUST/FLAG")
 ```
 
+## Examples
+
+- This is a basic example which shows you how to solve a common problem:
+
+``` r
+set.seed(20230306)
+```
+
+
 ## Citing our work
 
 If you find the `FLAG` package or any of the source code in this
