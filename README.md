@@ -13,7 +13,7 @@ from [GitHub](https://github.com/) with:
 devtools::install_github("YangLabHKUST/FLAG")
 ```
 
-## Examples
+## Example
 
 - This is a basic example which shows you how to solve a common problem:
 
@@ -38,6 +38,15 @@ Z.c = scale(Z, center = T, scale = F)
 results = FLAG(Z.c)
 results$precision.est
 ```
+
+## Real data analysis
+
+### Price comovement of S&P 100 stocks
+``` r
+library(FLAG)
+
+```
+For the detailed experiments, please refer to [NumericalResults/RealData/StockComovement/network_measure.ipynb](https://github.com/YangLabHKUST/FLAG/blob/main/NumericalResults/RealData/StockComovement/network_measure.ipynb)
 
 
 ## Citing our work
