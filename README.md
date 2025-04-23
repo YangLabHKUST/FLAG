@@ -41,6 +41,21 @@ results$precision.est
 
 ## Real data analysis
 
+### Gene co-expression in the Human Brain
+``` r
+library(FLAG)
+
+```
+For the detailed experiments, please refer to [NumericalResults/RealData/GeneExpression/gene_expression_data_analysis.ipynb](https://github.com/YangLabHKUST/FLAG/blob/main/NumericalResults/RealData/GeneExpression/gene_expression_data_analysis.ipynb)
+
+
+### Term association in the university webpages
+``` r
+library(FLAG)
+
+```
+For the detailed experiments, please refer to [NumericalResults/RealData/TermAssociation/meta_analysis.ipynb](https://github.com/YangLabHKUST/FLAG/blob/main/NumericalResults/RealData/TermAssociation/meta_analysis.ipynb)
+
 ### Price comovement of S&P 100 stocks
 ``` r
 library(FLAG)
